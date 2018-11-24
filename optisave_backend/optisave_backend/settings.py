@@ -27,12 +27,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
-    'api.optisave.pl',
     'ec2-18-196-172-230.eu-central-1.compute.amazonaws.com',
     '172.31.32.196', # private IP for lb
-    '18.196.172.230' # public IP for lb
+    '18.196.172.230', # public IP for lb
+    'api.optisave.pl'
 ]
-
 
 
 # Application definition
