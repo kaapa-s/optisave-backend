@@ -25,7 +25,11 @@ SECRET_KEY = '3qboiy8plr&t=%y5+k%vvn1&_h72@f_ck0r$xy@%*pnwf*-v_+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    'api.optisave.pl'
+]
+
 
 
 # Application definition
