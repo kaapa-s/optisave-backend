@@ -31,7 +31,8 @@ banks = (
     'BPI Bank Polskich Inwestycji',
     'Nest Bank',
     'Toyota Bank Polska',
-    'T-Mobile Usługi Bankowe'
+    'T-Mobile Usługi Bankowe',
+    'Inbank'
 )
 
 bank_names_mappings = {
@@ -46,6 +47,7 @@ bank_names_mappings = {
     'Eurobank': banks[18],
     'ING Bank Śląski': banks[4],
     'IdeaBank': banks[12],
+    'Inbank': banks[26],
     'Millennium': banks[6],
     'Nest Bank': banks[23],
     'Noble Bank': banks[7],
