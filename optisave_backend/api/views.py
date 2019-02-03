@@ -65,7 +65,7 @@ def deposits(request):
         data = json.loads(url.read().decode())
 
         for offer in data['odpowiedz']['oferty']:
-            offer['bank'] = bank_names_mappings[offer['bank']]
+            offer['bank'] = bank_names_mappings.get(offer['bank'], offer['bank'])
 
         result = {'offers': data['odpowiedz']['oferty']}
 

@@ -138,5 +138,5 @@ USE_TZ = True
 
 
 
-STATIC_ROOT = '/home/ubuntu/optisave-backend/optisave-backend/static'
+STATIC_ROOT = '/home/ubuntu/optisave-backend/optisave_backend/static'
 STATIC_URL = '/static/'
