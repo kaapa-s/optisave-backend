@@ -1,0 +1,7 @@
+#!/bin/bash
+git pull origin master
+source ~/environments/optisave_backend/bin/activate
+pip install -r requirements.txt
+python manage.py collectstatic --clear --noinput
+sudo cp -R optisave_backend /var/www
+echo "Deployment complete :)"
