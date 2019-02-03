@@ -1,0 +1,2 @@
+class ComperiaLeadAdaptor():
+    pass

@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
-    'ec2-18-196-172-230.eu-central-1.compute.amazonaws.com',
+    'ec2-3-122-242-45.eu-central-1.compute.amazonaws.com',
     '172.31.32.196', # private IP for lb
     '18.196.172.230', # public IP for lb
     'api.optisave.pl'
@@ -89,14 +89,14 @@ WSGI_APPLICATION = 'optisave_backend.wsgi.application'
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'optisave',
-        'USER': 'root',
-        'PASSWORD': 'toortoor1',
-        'HOST': 'optisave.cajoyta1esz5.eu-central-1.rds.amazonaws.com',
-        'PORT': '5432'
-    }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': 'optisave',
+    #     'USER': 'root',
+    #     'PASSWORD': 'toortoor1',
+    #     'HOST': 'optisave.cajoyta1esz5.eu-central-1.rds.amazonaws.com',
+    #     'PORT': '5432'
+    # }
 }
 
 
